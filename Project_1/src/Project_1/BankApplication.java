@@ -5,7 +5,7 @@ package Project_1;
 
 import java.util.Scanner;
 
-class IDFC {  //Creating Class "Idfc" with 1.Fields and 2.Methods. 
+class IDFC {  //Creating Class "IDFC" with 1.Fields and 2.Methods. 
 
 	//1.Fields
 	private String account_no;  // These are fields that is account_no , name_of_customer etc
@@ -168,7 +168,7 @@ public class BankApplication {
                                 break;  }  
                         }  
                         if(!found) {  
-                            System.out.println("Search failed! Account doesn't exist.");  
+                            System.out.println("Search failed, Account doesn't exist.");  
                         }  
                         break;
                         
