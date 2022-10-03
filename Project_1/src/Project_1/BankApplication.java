@@ -173,18 +173,7 @@ public class BankApplication {
                         break;
                         
                     case 5:
-                    	System.out.print("Enter Account No : ");  
-                        ac_no=sc.next();  
-                        found=false;  
-                        for (int i=0;i<obj.length;i++) {  
-                            found=obj[i].search(ac_no);  
-                            if(found) {  
-                            	obj[i].transfer();  
-                                break;  
-                               }  }  
-                        if(!found) {  
-                            System.out.println("Search failed! Account is not present to make transfer");  
-                        }  
+                    	obj[0].transfer();
                         break;
                         
                     case 6:
